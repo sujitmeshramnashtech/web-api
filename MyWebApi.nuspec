@@ -3,8 +3,8 @@
   <metadata>
     <id>MyWebApi</id>
     <version>1.0.0</version>
-    <authors>Sujit</authors>
-    <owners>sujit</owners>
+    <authors>sujit</authors>
+    <owners>YourName</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A sample Web API project.</description>
     <releaseNotes>Initial release</releaseNotes>
