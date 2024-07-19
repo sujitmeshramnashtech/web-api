@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>MyWebApi</id>
+    <version>1.0.0</version>
+    <authors>MyWebApi</authors>
+    <description>Package Description</description>
+    <repository type="git" url="https://github.com/sujitmeshramnashtech/web-api.git" commit="fe00407239ff297173f38413235793e7d07b8dca" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="Microsoft.AspNetCore.OpenApi" version="8.0.7" exclude="Build,Analyzers" />
+        <dependency id="Swashbuckle.AspNetCore" version="6.4.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net8.0">
+        <frameworkReference name="Microsoft.AspNetCore.App" />
+      </group>
+    </frameworkReferences>
+    <contentFiles>
+      <files include="any/net8.0/appsettings.Development.json" buildAction="Content" />
+      <files include="any/net8.0/appsettings.json" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="/home/nashtech/Nashtech Sujit/Tech Hub/Contribution and POCs/POCs/Current Working POC/4. webapi/MyWebApi/bin/Release/net8.0/MyWebApi.runtimeconfig.json" target="lib/net8.0/MyWebApi.runtimeconfig.json" />
+    <file src="/home/nashtech/Nashtech Sujit/Tech Hub/Contribution and POCs/POCs/Current Working POC/4. webapi/MyWebApi/bin/Release/net8.0/MyWebApi.dll" target="lib/net8.0/MyWebApi.dll" />
+    <file src="/home/nashtech/Nashtech Sujit/Tech Hub/Contribution and POCs/POCs/Current Working POC/4. webapi/MyWebApi/appsettings.Development.json" target="content/appsettings.Development.json" />
+    <file src="/home/nashtech/Nashtech Sujit/Tech Hub/Contribution and POCs/POCs/Current Working POC/4. webapi/MyWebApi/appsettings.Development.json" target="contentFiles/any/net8.0/appsettings.Development.json" />
+    <file src="/home/nashtech/Nashtech Sujit/Tech Hub/Contribution and POCs/POCs/Current Working POC/4. webapi/MyWebApi/appsettings.json" target="content/appsettings.json" />
+    <file src="/home/nashtech/Nashtech Sujit/Tech Hub/Contribution and POCs/POCs/Current Working POC/4. webapi/MyWebApi/appsettings.json" target="contentFiles/any/net8.0/appsettings.json" />
+  </files>
+</package>
